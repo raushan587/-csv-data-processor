@@ -1,0 +1,43 @@
+2026-03-13 15:04:46,672 [INFO] __main__ â€” ==================================================
+2026-03-13 15:04:46,672 [INFO] __main__ â€” CSV Data Processor Pipeline â€” START
+2026-03-13 15:04:46,672 [INFO] __main__ â€” Input file : data/sample/customers.csv
+2026-03-13 15:04:46,673 [INFO] __main__ â€” Mode       : DRY RUN
+2026-03-13 15:04:46,673 [INFO] __main__ â€” ==================================================
+2026-03-13 15:04:46,673 [INFO] src.cleaner â€” Loaded 15 rows from data/sample/customers.csv
+2026-03-13 15:04:46,677 [WARNING] src.cleaner â€” Row 3 rejected â€” Missing email
+2026-03-13 15:04:46,677 [WARNING] src.cleaner â€” Row 6 rejected â€” Missing name
+2026-03-13 15:04:46,677 [WARNING] src.cleaner â€” Row 8 rejected â€” Duplicate email: ravi@example.com
+2026-03-13 15:04:46,677 [WARNING] src.cleaner â€” Row 9 rejected â€” Missing amount
+2026-03-13 15:04:46,677 [WARNING] src.cleaner â€” Row 11 rejected â€” Invalid date format: 'invalid-date'
+2026-03-13 15:04:46,677 [WARNING] src.cleaner â€” Row 14 rejected â€” Missing email
+2026-03-13 15:04:46,677 [WARNING] src.cleaner â€” Row 16 rejected â€” Missing created_at
+2026-03-13 15:04:46,678 [INFO] src.cleaner â€” Cleaning complete: 8 valid, 7 rejected
+2026-03-13 15:04:46,686 [INFO] src.db â€” Schema ready: customers table
+2026-03-13 15:04:46,693 [INFO] src.db â€” Inserted 8 records, skipped 0
+2026-03-13 15:04:46,694 [INFO] src.api_client â€” [DRY RUN] POST /api/v1/customers â†’ {"externalId": "1", "customerName": "Ravi Sharma", "email": "ravi@example.com", "subscriptionPlan": "pro", "billingAmount": 999.0, "status": "active", "startDate": "2024-01-15"}
+2026-03-13 15:04:46,705 [INFO] src.api_client â€” [DRY RUN] POST /api/v1/customers â†’ {"externalId": "3", "customerName": "Mohit Verma", "email": "mohit@example.com", "subscriptionPlan": "pro", "billingAmount": 999.0, "status": "active", "startDate": "2024-03-05"}
+2026-03-13 15:04:46,716 [INFO] src.api_client â€” [DRY RUN] POST /api/v1/customers â†’ {"externalId": "4", "customerName": "Priya Gupta", "email": "priya@example.com", "subscriptionPlan": "enterprise", "billingAmount": 4999.0, "status": "active", "startDate": "2024-03-20"}
+2026-03-13 15:04:46,727 [INFO] src.api_client â€” [DRY RUN] POST /api/v1/customers â†’ {"externalId": "6", "customerName": "Deepak Rao", "email": "deepak@example.com", "subscriptionPlan": "pro", "billingAmount": 999.0, "status": "active", "startDate": "2024-04-15"}
+2026-03-13 15:04:46,738 [INFO] src.api_client â€” [DRY RUN] POST /api/v1/customers â†’ {"externalId": "9", "customerName": "Arjun Mehta", "email": "arjun@example.com", "subscriptionPlan": "enterprise", "billingAmount": 4999.0, "status": "active", "startDate": "2024-05-10"}
+2026-03-13 15:04:46,749 [INFO] src.api_client â€” [DRY RUN] POST /api/v1/customers â†’ {"externalId": "11", "customerName": "Suresh Kumar", "email": "suresh@example.com", "subscriptionPlan": "premium", "billingAmount": 1999.0, "status": "active", "startDate": "2024-06-01"}
+2026-03-13 15:04:46,760 [INFO] src.api_client â€” [DRY RUN] POST /api/v1/customers â†’ {"externalId": "12", "customerName": "Tina Malhotra", "email": "tina@example.com", "subscriptionPlan": "basic", "billingAmount": 499.0, "status": "active", "startDate": "2024-06-15"}
+2026-03-13 15:04:46,771 [INFO] src.api_client â€” [DRY RUN] POST /api/v1/customers â†’ {"externalId": "14", "customerName": "Pooja Iyer", "email": "pooja@example.com", "subscriptionPlan": "pro", "billingAmount": 999.0, "status": "active", "startDate": "2024-07-20"}
+2026-03-13 15:04:46,785 [INFO] src.reporter â€” Rejected rows saved â†’ output/rejected_rows.csv
+2026-03-13 15:04:46,786 [INFO] __main__ â€” Pipeline complete.
+2026-03-13 20:59:35,136 [INFO] __main__ — ==================================================
+2026-03-13 20:59:35,137 [INFO] __main__ — CSV Data Processor Pipeline — START
+2026-03-13 20:59:35,137 [INFO] __main__ — Input file : data/sample/customers.csv
+2026-03-13 20:59:35,138 [INFO] __main__ — Mode       : DRY RUN
+2026-03-13 20:59:35,138 [INFO] __main__ — ==================================================
+2026-03-13 20:59:35,139 [INFO] src.cleaner — Loaded 15 rows from data/sample/customers.csv
+2026-03-13 20:59:35,144 [WARNING] src.cleaner — Row 3 rejected — Missing email
+2026-03-13 20:59:35,144 [WARNING] src.cleaner — Row 6 rejected — Missing name
+2026-03-13 20:59:35,145 [WARNING] src.cleaner — Row 8 rejected — Duplicate email: ravi@example.com
+2026-03-13 20:59:35,145 [WARNING] src.cleaner — Row 9 rejected — Missing amount
+2026-03-13 20:59:35,145 [WARNING] src.cleaner — Row 11 rejected — Invalid date format: 'invalid-date'
+2026-03-13 20:59:35,146 [WARNING] src.cleaner — Row 14 rejected — Missing email
+2026-03-13 20:59:35,146 [WARNING] src.cleaner — Row 16 rejected — Missing created_at
+2026-03-13 20:59:35,147 [INFO] src.cleaner — Cleaning complete: 8 valid, 7 rejected
+2026-03-13 20:59:35,162 [INFO] src.db — Schema ready: customers table
+2026-03-13 20:59:35,167 [INFO] src.db — Inserted 8 records, skipped 0
+2026-03-13 20:59:35,308 [INFO] __main__ — Pipeline complete.

@@ -1,0 +1,8 @@
+id,name,email,plan,amount,status,created_at,_errors,_row_number
+2,Anita Singh,,basic,499.0,active,2024-02-10,Missing email,3
+5,,sanjay@example.com,basic,499.0,inactive,2024-04-01,Missing name,6
+7,Ravi Sharma,ravi@example.com,pro,999.0,active,2024-01-15,Duplicate email: ravi@example.com,8
+8,Neha Joshi,neha@example.com,basic,,active,2024-05-01,Missing amount,9
+10,Kavya Nair,kavya@example.com,pro,999.0,active,invalid-date,Invalid date format: 'invalid-date',11
+13,Vikram Das,,enterprise,4999.0,active,2024-07-01,Missing email,14
+15,Karan Kapoor,karan@example.com,basic,499.0,active,,Missing created_at,16

@@ -1,0 +1,4 @@
+# CSV Data Processor & API Importer
+# Core dependencies
+
+requests>=2.31.0       # HTTP client for REST API calls

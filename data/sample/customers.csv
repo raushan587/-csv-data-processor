@@ -1,0 +1,16 @@
+id,name,email,plan,amount,status,created_at
+1,Ravi Sharma,ravi@example.com,pro,999,active,2024-01-15
+2,Anita Singh,,basic,499,active,2024-02-10
+3,MOHIT VERMA,mohit@example.com,PRO,999,Active,2024-03-05
+4,Priya Gupta,priya@example.com,enterprise,4999,active,2024-03-20
+5,,sanjay@example.com,basic,499,inactive,2024-04-01
+6,Deepak Rao,deepak@example.com,pro,999,active,2024-04-15
+7,Ravi Sharma,ravi@example.com,pro,999,active,2024-01-15
+8,Neha Joshi,neha@example.com,basic,,active,2024-05-01
+9,Arjun Mehta,arjun@example.com,enterprise,4999,ACTIVE,2024-05-10
+10,Kavya Nair,kavya@example.com,pro,999,active,invalid-date
+11,Suresh Kumar,suresh@example.com,premium,1999,active,2024-06-01
+12,Tina Malhotra,tina@example.com,basic,499,active,2024-06-15
+13,Vikram Das,,enterprise,4999,active,2024-07-01
+14,Pooja Iyer,pooja@example.com,pro,999,active,2024-07-20
+15,Karan Kapoor,karan@example.com,basic,499,active,
